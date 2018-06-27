@@ -1,0 +1,181 @@
+body {
+  font-family: 'Montserrat', sans-serif !important;
+
+  background-color: #D1BEA6 !important;
+  margin: 0 auto;
+}
+
+.bg-light {
+    background-color: #8C6850!important;
+}
+
+#main {
+  display: block!important;
+  padding: 8px 8px;
+  margin: 0 auto;
+}
+.container {
+  display: block;
+  margin: 0 auto;
+}
+.row {
+  display: block;
+  margin: 0 auto;
+}
+
+.left {
+  color: white;
+  display: inline-block;
+  margin: 0 auto;
+  background-color: #A07C64;
+  border-radius: 8px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  padding: 5px;
+  font-size: 22px;
+
+}
+
+.left img {
+
+  margin-top: 6px;
+  margin-bottom: 6px;
+  max-width: 100%;
+  border-radius: 7px;
+  height: auto;
+  opacity: 0.8;
+}
+
+.left h2 {
+  text-align: left;
+  font-size: 20px;
+}
+
+.container-fluid {
+  margin-top: 20px;
+  width: 100%;
+  padding-top: 18px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+.list1 {
+  padding-top: 18px;
+}
+
+
+.jumbotron {
+  background-image: url('../Images/map.jpg');
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h1 {
+  font-size: 100px !important;
+  font-family: 'Merienda One', cursive !important;
+  margin-bottom: 20px;
+  margin-top: 25px;
+  color: white !important;
+  text-shadow: black 0.01em 0.03em 0.05em;
+}
+
+
+h4 {
+  font-size: 14px;
+  font-family: 'Slabo 27px', serif;
+}
+
+ul {
+  list-style-type: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 30px!important;
+  color: white!important;
+  text-shadow: black 0.04em 0.04em 0.05em;
+}
+
+
+
+#main {
+  display: inline-block;
+  padding: 15px 15px;
+  margin: 0 auto;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+  h1 {
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-size: 70px!important;
+  }
+  .left h2 {
+    text-align: left;
+    font-size: 16px!important;
+  }
+
+  h2 {
+    font-size: 18px!important;
+  }
+  p, h4 {
+    font-size: 20px!important;
+  }
+
+    .list1 {
+      font-size: 15px!important;
+    }
+    .container-fluid {
+      margin-top: 20px;
+      width: 100%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: white;
+    }
+
+  #menu {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 35px!important;
+    margin-top: 14px!important;
+    margin-bottom: 8px;
+  }
+  h2 {
+    font-size: 14px!important;
+  }
+  p, h4 {
+    font-size: 9px!important;
+  }
+  #menu {
+    display: none;
+  }
+
+  .list1 {
+    font-size: 12px!important;
+    padding-top: 19px;
+  }
+
+  .container-fluid {
+    margin-top: 20px;
+    width: 100%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: white;
+  }
+
+
+  .red {
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 2px;
+    padding: 5px;
+  }
+}
